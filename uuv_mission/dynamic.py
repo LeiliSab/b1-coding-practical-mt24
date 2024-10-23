@@ -4,6 +4,7 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 from .terrain import generate_reference_and_limits
+from .control import *
 
 class Submarine:
     def __init__(self):
